@@ -1,10 +1,10 @@
-# func writeToText(fileName: String, textToWrite: String, clearTextBeforeWriting: Bool)
+## writeToText(fileName: String, textToWrite: String, clearTextBeforeWriting: Bool)
 
-# func readTextFile(fileName: String) -> String
+## readTextFile(fileName: String) -> String
 
-# func clearTextFile(fileName: String)
+## clearTextFile(fileName: String)
 
-# func getDocumentDirectory() -> String
+## getDocumentDirectory() -> String
 
 
 WriteToText  -> func helps you to create  txt file if not exist
@@ -15,8 +15,8 @@ clearTextFile -> func helps you to clear text file
 
 getDocumentDirectory - > func give you to  ios .documentDirectory 
 
-§
-Example:
+
+Sample Code:
 
 SwiftTxtFileUtil.writeToText(fileName: "blabla", textToWrite: "hellooText", clearTextBeforeWriting: false)
         print(SwiftTxtFileUtil.readTextFile(fileName: "blabla"))
